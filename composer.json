@@ -1,7 +1,7 @@
 {
-	"name": "typo3/cms-compatibility7",
+	"name": "friendsoftypo3/cms-compatibility7",
 	"type": "typo3-cms-extension",
-	"description": "TYPO3 Core",
+	"description": "Compatibility Extension for TYPO3 8 LTS",
 	"homepage": "https://typo3.org",
 	"license": ["GPL-2.0+"],
 

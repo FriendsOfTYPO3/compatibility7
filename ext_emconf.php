@@ -15,11 +15,12 @@ $EM_CONF[$_EXTKEY] = [
         'depends' => [
             'typo3' => '8.7.0-8.7.99',
             'backend' => '8.7.0-8.7.99',
-            'indexed_search' => '8.7.0-8.7.99',
         ],
         'conflicts' => [
             'compatibility6' => '0.0.0',
         ],
-        'suggests' => [],
+        'suggests' => [
+            'indexed_search' => '8.7.0-8.7.99',
+        ],
     ],
 ];

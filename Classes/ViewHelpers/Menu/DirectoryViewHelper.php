@@ -75,6 +75,9 @@ class DirectoryViewHelper extends AbstractMenuViewHelper
         $includeMenuSeparator = (bool)$this->arguments['includeMenuSeparator'];
 
         $pageUids = $this->getPageUids($pageUids, $entryLevel);
+        if (empty($pageUids)) {
+            return '';
+        }
         $pages = $typoScriptFrontendController->sys_page->getMenu(
             $pageUids,
             '*',

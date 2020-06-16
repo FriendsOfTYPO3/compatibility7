@@ -3,13 +3,12 @@
 	"type": "typo3-cms-extension",
 	"description": "Compatibility Extension for TYPO3 8 LTS",
 	"homepage": "https://typo3.org",
-	"license": ["GPL-2.0+"],
-
+	"license": ["GPL-2.0-or-later"],
 	"require": {
-		"typo3/cms-core": "*"
+		"typo3/cms-core": "^8.7.0"
 	},
 	"replace": {
-		"compatibility7": "*"
+		"typo3-ter/compatibility7": "*"
 	},
 	"conflict": {
 		"typo3/cms-compatibility6": "*"
@@ -19,6 +18,9 @@
 			"class-alias-maps": [
 				"Migrations/Code/ClassAliasMap.php"
 			]
+		},
+		"typo3/cms": {
+			"extension-key": "compatibility7"
 		}
 	},
 	"autoload": {

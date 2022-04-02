@@ -1,8 +1,8 @@
 .. include:: /Includes.rst.txt
 
-==================================
-TYPO3 extension ``compatibility7``
-==================================
+===============
+Compatibility 7
+===============
 
 :Extension key:
    compatibility7

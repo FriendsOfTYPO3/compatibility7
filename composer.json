@@ -2,7 +2,12 @@
 	"name": "friendsoftypo3/compatibility7",
 	"type": "typo3-cms-extension",
 	"description": "Compatibility Extension for TYPO3 8 LTS",
-	"homepage": "https://typo3.org",
+	"homepage": "https://extensions.typo3.org/extension/compatibility7/",
+	"support": {
+		"issues": "https://github.com/FriendsOfTYPO3/compatibility7/issues",
+		"source": "https://github.com/FriendsOfTYPO3/compatibility7",
+		"docs": "https://docs.typo3.org/p/friendsoftypo3/compatibility7/main/en-us/"
+	},
 	"license": ["GPL-2.0-or-later"],
 	"require": {
 		"typo3/cms-core": "^8.7.0"
